@@ -1,0 +1,65 @@
+@import "./color.scss";
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--color-dark);
+    color: var(--color-text-dark);
+  }
+
+  #calc {
+    color: var(--text-color-calc-dark);
+  }
+  .main {
+    background-color: var(--bg-calc-dark);
+
+    .key-container {
+      background-color: var(--bg-key-container-dark);
+    }
+
+    .key {
+      &.lighten {
+        color: var(--lighten--dark);
+
+        &:hover {
+          color: #ffffffb4;
+        }
+      }
+      &:hover {
+        background-color: #2f2f2f;
+        box-shadow: 0 0 0 5px #4d4d4d2d;
+      }
+    }
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: var(--bg-light);
+    color: var(--color-text-light);
+  }
+
+  #calc {
+    color: var(--text-color-calc-light);
+  }
+  .main {
+    background-color: var(--bg-calc-light);
+  }
+
+  .key-container {
+    background-color: var(--bg-key-container-light);
+  }
+
+  .key {
+    &.lighten {
+      color: var(--lighten--light);
+
+      &:hover {
+        color: #ffffffb4;
+      }
+      &:hover {
+        background-color: #ebebeb;
+        box-shadow: 0 0 0 5px #cfcfcf2d;
+      }
+    }
+  }
+}
