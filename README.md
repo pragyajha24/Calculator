@@ -1,5 +1,7 @@
 # Calculator
- A basic calculator  
+ A basic calculator 
+ 
+ ![Screenshot (196)](https://user-images.githubusercontent.com/78782644/107488065-deb6c900-6bac-11eb-828e-6fa8c422d32b.png)
  
 ## Technology Used
 + HTML
